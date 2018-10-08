@@ -40,8 +40,7 @@ public class OBJLoader {
     float[] normalsArray = null;
     float[] textureArray = null;
     int[] indicesArray = null;
-    try {
-      
+    try {  
       while(true) {
         line = reader.readLine();
         String[] currentLine = line.split(" ");
